@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-section{
+    background-color: #00000086;
+    color: white;
+    padding: 10px 5px;
+}
+.logo{
+    width: 200px;
+}
+.nav-item{
+  
+}
+.nav-item ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    border-bottom: 2px solid #00000000;
+    padding-bottom: 5px;
+}
+.nav-item ul li:hover{
+    border-bottom: 2px solid #60c233e5;
+}
+.bg{
+    background: url('../media/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.banner-section{
+    height: 60vh;
+    width: 100%;
+}
+.banner-photo{
+      height: 60vh;
+      width: 100%;
+      background-color: #02020288;
+} 
+.banner-text{
+    background-color: #1c1b208f;
+    width: 70%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.banner-title{
+    text-transform: uppercase;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:bolder;
+    font-size: 50px;
+}
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.about-section{
+    min-height: 50vh;
+    background: #a0a5aa;
+}
+.about{
+    /* background-color: azure; */
+    padding: 20px 60px;
+
+}
+.about-title{
+    font-size: 35px;
+    font-weight: 300;
+}
+.about-text{
+    padding: 20px;
+    /* background: #ff4747; */
+    text-align: justify;
+    box-sizing: border-box;
+    margin: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #03d6dd;
+}
+.resume{
+
+}
+.about-img{
+    width: 100%;
+    text-align: center;
+    padding: auto;
+}
+.about-img img{
+    max-width: 200px;
+    box-shadow: 9px 20px 15px 0px #0000007a;
+    border-radius: 45px 0px 45px 0px;
+}
+
+.service-section{
+    /* background: #60c233e5; */
+    padding: 20px 60px;
+}
+.service-title{
+    font-size: 35px;
+}
+.service-item{
+    background: linear-gradient(200deg, #ccfba2a3, #db6d4c08);
+    padding: 20px;
+    border: 10px solid #fff;
+}
