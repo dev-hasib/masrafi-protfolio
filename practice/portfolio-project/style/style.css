@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto&family=Shadows+Into+Light&display=swap');
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #b6b6b6;
+}
+/* nav start  */
+nav {
+	background-color: #1e277a;
+	height: 120px;
+	width: 100vw;
+}
+.nav-container {
+	width: 90vw;
+	margin: auto;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.brand h1 {
+	font-size: 35px;
+	color: white;
+}
+.nav-menu {
+	display: flex;
+	gap: 2rem;
+}
+.nav-menu > .menu-item {
+	color: #fefefe;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+/* nav end  */
+.about-card {
+	width: 90vw;
+	height: 420px;
+	background-color: #d9d9d9;
+	margin: 50px auto;
+	display: flex;
+	border-radius: 5px;
+	align-items: center;
+	box-shadow: 5px 5px 25px #00000021;
+}
+.profile-img {
+}
+.img-outer-border {
+	width: 330px;
+	height: 330px;
+	border: 2px solid #1e277a;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 45px;
+	border-radius: 10px;
+}
+.img {
+	width: 265px;
+	height: 265px;
+	border: 2px solid #1e277a;
+	border-radius: 50%;
+}
+.img > img {
+	border-radius: 50%;
+	width: 265px;
+	object-fit: cover;
+	object-position: center;
+	height: 265px;
+}
+.profile-info {
+	/* background-color: #eeff; */
+	width: 100%;
+	height: 330px;
+	margin-left: 90px;
+}
+.designation {
+}
+.name > h1 {
+	font-size: 45px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.title > h4 {
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #333333;
+}
+.social-icons {
+	display: flex;
+	gap: 20px;
+	margin-top: 3.5rem;
+}
+.social-icons img {
+	width: 40px;
+	height: auto;
+	border-radius: 5px;
+	object-fit: cover;
+	object-position: center;
+}
+.skills {
+	display: flex;
+	gap: 15px;
+	margin-top: 10px;
+}
+.skill-pill {
+	background-color: #1e277a;
+	color: #fff;
+	padding: 8px 15px;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+.short-bio {
+	font-size: 20px;
+	text-align: justify;
+	margin-top: 20px;
+	margin-right: 45px;
+	color: #555555;
+}
+/* about card end  */
+/* skills section start  */
+.skills-section {
+	width: 90vw;
+	min-height: 780px;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 45px;
+	box-sizing: border-box;
+	background-color: #d9d9d9;
+	margin-bottom: 50px;
+}
+.skills-title {
+	margin-left: 45px;
+	margin-bottom: 45px;
+}
+.clearFix::after {
+	content: '';
+	clear: both;
+}
+.skills-title h1 {
+	text-transform: uppercase;
+	font-size: 48px;
+}
+.skills-body {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	margin-left: 73px;
+	margin-right: 73px;
+}
+.skill-item {
+	height: 200px;
+	/* background-color: #333333; */
+	display: flex;
+	align-items: center;
+}
+.skill-item > img {
+	width: 100px;
+	margin-right: 20px;
+}
+.skill-desc > h1 {
+	color: #000;
+	font-family: Quicksand;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 151.523%; /* 45.457px */
+	letter-spacing: 2.25px;
+	text-transform: uppercase;
+}
+.skill-desc > h4 {
+	color: #000;
+	font-family: Quicksand;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 151.523%; /* 30.305px */
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+.skill-desc > p {
+	color: #000;
+	font-family: Quicksand;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 151.523%; /* 21.213px */
+	letter-spacing: 1.05px;
+	text-transform: capitalize;
+}
+/* skill section end   */
+/* experience-section start  */
+.experience-section {
+	width: 90vw;
+	min-height: 780px;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 45px;
+	box-sizing: border-box;
+	background-color: #d9d9d9;
+	margin-bottom: 50px;
+}
+.experience-title {
+	margin-left: 45px;
+	margin-bottom: 45px;
+}
+
+.experience-title h1 {
+	text-transform: uppercase;
+	font-size: 48px;
+}
+.experience-body {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	margin-left: 73px;
+	margin-right: 73px;
+}
+.experience-item {
+	/* background-color: white; */
+	padding: 0px 20px;
+	height: 300px;
+}
+.experience-item > h1 {
+	color: #000;
+	font-family: Quicksand;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 151.523%; /* 60.609px */
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.experience-item > h4 {
+	color: #000;
+	font-family: Quicksand;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 151.523%; /* 30.305px */
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+.experience-item > p {
+	color: #3a3c36;
+	text-align: justify;
+	font-family: Quicksand;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 151.523%; /* 22.728px */
+	letter-spacing: 1.125px;
+	text-transform: capitalize;
+}
+/* experience end  */
+/* portfolio start  */
+.portfolio-section {
+	width: 90vw;
+	min-height: 686px;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 45px;
+	box-sizing: border-box;
+	background-color: #d9d9d9;
+	margin-bottom: 50px;
+}
+.portfolio-title {
+	margin-left: 45px;
+	margin-bottom: 45px;
+}
+
+.portfolio-title h1 {
+	text-transform: uppercase;
+	font-size: 48px;
+}
+.portfolio-body {
+	display: flex;
+	gap: 30px;
+	margin-left: 73px;
+	justify-content: center;
+	margin-right: 73px;
+}
+.portfolio-item {
+	min-width: 393px;
+	background-color: white;
+	height: 428px;
+	border-radius: 5px;
+}
+.portfolio-item > img {
+	width: 393px;
+	height: 276px;
+	flex-shrink: 0;
+	border-radius: 5px 5px 0px 0px;
+}
+.project-desc {
+	width: 393px;
+	height: 155px;
+	padding: 10px;
+	flex-shrink: 0;
+	border-radius: 0px 0px 5px 5px;
+}
+.project-desc > h1 {
+	color: #000;
+	font-family: Quicksand;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 151.523%; /* 30.305px */
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.project-desc > p {
+	color: #000;
+	text-align: justify;
+	font-family: Quicksand;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 151.523%; /* 18.183px */
+	letter-spacing: 1.2px;
+	width: 361px;
+	height: 105px;
+	flex-shrink: 0;
+}
+.footer {
+	width: 90vw;
+	min-height: 686px;
+	margin: 0 auto;
+	padding: 45px;
+	box-sizing: border-box;
+	background-color: #d9d9d9;
+	border-radius: 5px 5px 0px 0px;
+}
+.footer-item-title {
+	display: flex;
+	gap: 3rem;
+	margin-left: 73px;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.footer-item-title h1 {
+	width: 550px;
+	height: 61px;
+	color: #000;
+	font-family: Inter;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 188.023%; /* 75.209px */
+	text-transform: uppercase;
+}
+
+.footer-body {
+	display: flex;
+	margin-left: 73px;
+	gap: 3rem;
+	justify-content: center;
+}
+.footer-item {
+	width: 549px;
+	height: 566px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	background: #fff;
+	padding: 54px;
+}
+.massage-name,
+.massage-email {
+	width: 442px;
+	height: 66px;
+	margin-bottom: 54px;
+	border-radius: 10px;
+	background: #d9d9d9;
+	border: none;
+	outline: none;
+	font-size: 30px;
+	box-sizing: border-box;
+	padding: 5px 20px;
+}
+.massage {
+	width: 442px;
+	height: 156px;
+	flex-shrink: 0;
+	resize: vertical;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	background: #d9d9d9;
+	border: none;
+	outline: none;
+	font-size: 30px;
+	box-sizing: border-box;
+	padding: 10px 20px;
+}
+.submit-btn {
+	width: 174px;
+	height: 53px;
+	flex-shrink: 0;
+	border-radius: 14px;
+	background: #030a50;
+	color: #fff;
+	font-family: Inter;
+	font-size: 22px;
+	font-style: normal;
+	cursor: pointer;
+	font-weight: 400;
+	line-height: normal;
+}
+.footer-quat {
+	font-size: medium;
+	vertical-align: middle;
+	position: relative;
+	text-align: justify;
+	font-size: 30px;
+}
+.footer-quat::before {
+	    content: '“';
+    position: absolute;
+    top: -25px;
+    left: -32px;
+    font-size: 80px;
+    color: #333;
+}
+.footer-quat::after {
+	content: '“';
+	position: absolute;
+	bottom: -24px;
+	right: 43px;
+	font-size: 80px;
+	transform: rotate(180deg);
+	color: #333;
+}
