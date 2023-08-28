@@ -34,7 +34,7 @@ nav {
 /* nav end  */
 .about-card {
 	width: 90vw;
-	height: 420px;
+	min-height: 420px;
 	background-color: #d9d9d9;
 	margin: 50px auto;
 	display: flex;
@@ -42,8 +42,8 @@ nav {
 	align-items: center;
 	box-shadow: 5px 5px 25px #00000021;
 }
-.profile-img {
-}
+/* .profile-img {
+} */
 .img-outer-border {
 	width: 330px;
 	height: 330px;
@@ -73,8 +73,8 @@ nav {
 	height: 330px;
 	margin-left: 90px;
 }
-.designation {
-}
+/* .designation {
+} */
 .name > h1 {
 	font-size: 45px;
 	text-transform: uppercase;
@@ -221,7 +221,7 @@ nav {
 .experience-item {
 	/* background-color: white; */
 	padding: 0px 20px;
-	height: 300px;
+	min-height: 300px;
 }
 .experience-item > h1 {
 	color: #000;
@@ -358,9 +358,12 @@ nav {
 	gap: 3rem;
 	justify-content: center;
 }
+.footer-quat{
+	line-height: 2rem;
+}
 .footer-item {
-	width: 549px;
-	height: 566px;
+	max-width: 549px;
+	min-height: 566px;
 	flex-shrink: 0;
 	border-radius: 5px;
 	box-sizing: border-box;

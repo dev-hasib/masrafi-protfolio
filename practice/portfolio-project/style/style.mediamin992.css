@@ -1,0 +1,50 @@
+.about-card{
+    flex-direction: column;
+    padding: 45px;
+    box-sizing: border-box;
+}
+.designation{
+    margin: auto;
+}
+.img-outer-border{
+    margin-left: 0px;
+}
+.profile-info{
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 0px;
+}
+.social-icons{
+    margin:20px auto;
+   justify-content: center;
+}
+.skills{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.short-bio{
+    margin: 0px;
+    text-align: center;
+}
+/* card section end  */
+/* skills section start  */
+.skills-body{
+    grid-template-columns: 1fr;
+}
+/* skills section end  */
+/* experience-section start  */
+.experience-body{
+    grid-template-columns: 1fr;
+}
+/* .experience section end */
+/* portfolio section start  */
+.portfolio-body{
+    flex-direction: column;
+}
+.portfolio-item >img{
+    width: 100%;
+}
+.footer-body{
+    flex-direction: column;
+}
